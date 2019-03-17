@@ -1,0 +1,14 @@
+{
+  "name": "getting-started-with-webassembly",
+  "version": "1.0.0",
+  "description": "Getting started with Webassembly course code",
+  "main": "server.js",
+  "author": "Attila Vago <attilavago85@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

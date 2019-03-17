@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Webassembly Demo</title>
+</head>
+<body>
+    <h1>Webassembly Demo</h1>
+    <script>
+        const wasmMemory = new WebAssembly.Memory({
+            initial: 2
+        })
+
+        const readMemStr = (offset, length) => {
+            const strBuffer = new Uint8Array(wasmMemory.buffer, offset, length);
+            const str = new TextDecoder().decode(strBuffer);
+
+            window.dispatchEvent(new CustomEvent('wasmValue', {detail: str}));
+        }
+
+        window.addEventListener('wasmValue', str => {
+          console.log('received new string from C', str.detail);
+        })
+
+        const imports = {
+            env: {
+              numLog: console.log,
+              strLog: readMemStr,
+              memory: wasmMemory
+            }
+        }
+
+        WebAssembly.instantiateStreaming(fetch('/main.wasm'), imports).then(wasm => {
+            console.log('WASM Ready');
+            window.wasm = wasm;
+        });
+    </script>
+</body>
+</html>
