@@ -6,6 +6,17 @@
 </head>
 <body>
     <h1>Webassembly Demo</h1>
-    <script src="demo.js"></script>
+    <script src="imports.js"></script>
+    <script>
+        // return a usable val to C instead of the aforementioned anti-pattern
+        function getNum(){
+          return 22;
+        }
+
+        // return a usable string val to C instead of the aforementioned anti-pattern
+        function getStr(){
+          return 'Hello from JS Land!';
+        }
+    </script>
 </body>
 </html>
