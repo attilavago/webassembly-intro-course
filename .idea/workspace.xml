@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47058772-01aa-4bde-8d75-767a69893d4e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/imports.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ready.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/strings.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/demo.c" beforeDir="false" afterPath="$PROJECT_DIR$/lib/demo.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/demo.wasm" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -30,11 +26,229 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="24915">
+              <caret line="1300" lean-forward="true" selection-start-line="1300" selection-end-line="1300" />
+              <folding>
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#4;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#5;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#6;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#7;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#8;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#9;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#2;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#3;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#4;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#5;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#6;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#7;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#8;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#9;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#path#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#98411#98417#0" expanded="true" />
+                <element signature="e#98417#98423#0" expanded="true" />
+                <element signature="e#98423#98429#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,11 +262,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/imports.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="120">
+              <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/strings.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -114,8 +337,9 @@
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/ready.js" />
         <option value="$PROJECT_DIR$/lib/demo.c" />
-        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/lib/imports.c" />
+        <option value="$PROJECT_DIR$/lib/strings.c" />
+        <option value="$PROJECT_DIR$/public/index.html" />
       </list>
     </option>
   </component>
@@ -190,12 +414,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1552831732104</updated>
-      <workItem from="1552831735042" duration="8301000" />
+      <workItem from="1552831735042" duration="10094000" />
     </task>
+    <task id="LOCAL-00001" summary="done with lesson 13">
+      <created>1552922111044</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552922111045</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8301000" />
+    <option name="totallyTimeSpent" value="10094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="222" y="347" width="1980" height="906" extended-state="0" />
@@ -222,6 +454,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done with lesson 13" />
+    <option name="LAST_COMMIT_MESSAGE" value="done with lesson 13" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/public/program.wasm">
@@ -268,13 +504,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/demo.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -284,8 +513,240 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/imports.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="120">
+          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/strings.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24915">
+          <caret line="1300" lean-forward="true" selection-start-line="1300" selection-end-line="1300" />
+          <folding>
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#defs#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#2;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#4;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#3;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#4;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#5;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#6;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#7;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#8;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#9;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#0;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#0;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#1;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#2;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#3;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#4;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#5;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#6;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#radialGradient#0;n#g#0;n#g#7;n#g#1;n#g#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#2;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#4;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#5;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#6;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#7;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#8;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#9;n#g#0;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#0;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#1;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#2;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#3;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#4;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#5;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#6;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#7;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#8;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#path#9;n#g#1;n#g#4;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#0;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#1;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#2;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#3;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#4;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#5;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#6;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#7;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#8;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#stop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#0;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#1;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a:midPointStop#2;n#linearGradient#9;n#g#1;n#g#5;n#svg#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#98411#98417#0" expanded="true" />
+            <element signature="e#98417#98423#0" expanded="true" />
+            <element signature="e#98423#98429#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
