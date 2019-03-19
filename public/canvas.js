@@ -1223,11 +1223,11 @@ function updateGlobalBufferViews() {
 
 
 var STATIC_BASE = 1024,
-    STACK_BASE = 4864,
+    STACK_BASE = 14432,
     STACKTOP = STACK_BASE,
-    STACK_MAX = 5247744,
-    DYNAMIC_BASE = 5247744,
-    DYNAMICTOP_PTR = 4608;
+    STACK_MAX = 5257312,
+    DYNAMIC_BASE = 5257312,
+    DYNAMICTOP_PTR = 14176;
 
 assert(STACK_BASE % 16 === 0, 'stack must start aligned');
 assert(DYNAMIC_BASE % 16 === 0, 'heap must start aligned');
@@ -1710,13 +1710,16 @@ Module['asm'] = function(global, env, providedBuffer) {
 
 // === Body ===
 
-var ASM_CONSTS = [];
+var ASM_CONSTS = [function($0, $1) { render($0, $1); }];
+
+function _emscripten_asm_const_iii(code, a0, a1) {
+  return ASM_CONSTS[code](a0, a1);
+}
 
 
 
 
-
-// STATICTOP = STATIC_BASE + 3840;
+// STATICTOP = STATIC_BASE + 13408;
 /* global initializers */ /*__ATINIT__.push();*/
 
 
@@ -1727,7 +1730,7 @@ var ASM_CONSTS = [];
 
 
 /* no memory initializer */
-var tempDoublePtr = 4848
+var tempDoublePtr = 14416
 assert(tempDoublePtr % 8 == 0);
 
 function copyTempFloat(ptr) { // functions, because inlining this code increases code size too much
@@ -1846,6 +1849,8 @@ function copyTempDouble(ptr) {
 
   function ___unlock() {}
 
+  var _emscripten_asm_const_int=true;
+
   function _emscripten_get_heap_size() {
       return TOTAL_MEMORY;
     }
@@ -1855,10 +1860,6 @@ function copyTempDouble(ptr) {
       abort('Cannot enlarge memory arrays to size ' + requestedSize + ' bytes (OOM). Either (1) compile with  -s TOTAL_MEMORY=X  with X higher than the current value ' + TOTAL_MEMORY + ', (2) compile with  -s ALLOW_MEMORY_GROWTH=1  which allows increasing the size at runtime, or (3) if you want malloc to return NULL (0) instead of this abort, compile with  -s ABORTING_MALLOC=0 ');
     }function _emscripten_resize_heap(requestedSize) {
       abortOnCannotGrowMemory(requestedSize);
-    }
-
-  function _emscripten_run_script(ptr) {
-      eval(UTF8ToString(ptr));
     }
 
   
@@ -1876,6 +1877,14 @@ function copyTempDouble(ptr) {
       else err('failed to set errno from JS');
       return value;
     } 
+
+  function _time(ptr) {
+      var ret = (Date.now()/1000)|0;
+      if (ptr) {
+        HEAP32[((ptr)>>2)]=ret;
+      }
+      return ret;
+    }
 var ASSERTIONS = true;
 
 // Copyright 2017 The Emscripten Authors.  All rights reserved.
@@ -1931,10 +1940,11 @@ var asmLibraryArg = {
   "___syscall54": ___syscall54,
   "___syscall6": ___syscall6,
   "___unlock": ___unlock,
+  "_emscripten_asm_const_iii": _emscripten_asm_const_iii,
   "_emscripten_get_heap_size": _emscripten_get_heap_size,
   "_emscripten_memcpy_big": _emscripten_memcpy_big,
   "_emscripten_resize_heap": _emscripten_resize_heap,
-  "_emscripten_run_script": _emscripten_run_script,
+  "_time": _time,
   "abortOnCannotGrowMemory": abortOnCannotGrowMemory,
   "flush_NO_FILESYSTEM": flush_NO_FILESYSTEM,
   "tempDoublePtr": tempDoublePtr,
