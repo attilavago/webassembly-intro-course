@@ -1,46 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Webassembly Demo</title>
+    <meta charset="utf-8">
+    <title>WebAssembly Demo</title>
+    <style media="screen">
+        body, canvas {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
-    <h1>Webassembly Demo</h1>
-    <script src="prime.js"></script>
-    <script>
-        const primes = 200000;
+<canvas id="canvas" width="2000" height="2000"></canvas>
+<script src="canvas.js"></script>
+<script>
 
-        const isPrime = num => {
-          for(let i = 2; i < num; i++){
-            if(num % i === 0){
-              return false;
-            }
-          }
-          return num !== 1 && num !== 0;
-        }
-
-        const checkPrimes = num => {
-          let count = 0;
-          for(let i = 0; i < num; i++){
-            if(isPrime(i)) count++;
-          }
-          return count;
-        }
-
-        Module['onRuntimeInitialized'] = () => {
-            // check js
-            let jsStart = performance.now();
-            let jsPrimes = checkPrimes(primes);
-            console.log('JS', jsPrimes, Math.round(performance.now() - jsStart)/1000);
-
-            // check c
-          let cStart = performance.now();
-          let cPrimes = _checkPrimes(primes);
-          console.log('C', cPrimes, Math.round(performance.now() - cStart)/1000);
-        }
+  // Create canvas context
+  const canvas = document.getElementById('canvas')
+  const context = canvas.getContext('2d')
 
 
+  // Render circles on canvas
+  const render = () => {
 
-    </script>
+    // Get circle data from C
+    let circles = _getCircles()
+    console.log(`Got ${circles} circles`)
+
+    // Draw circle
+    context.beginPath()
+    context.arc(300, 300, 150, 0, 2*Math.PI, false)
+    context.fillStyle = 'dodgerblue'
+    context.fill()
+
+    console.log('rendered')
+
+    // Request next animation frame and re-render with updated circles
+    //window.requestAnimationFrame( render )
+  }
+
+</script>
 </body>
 </html>
